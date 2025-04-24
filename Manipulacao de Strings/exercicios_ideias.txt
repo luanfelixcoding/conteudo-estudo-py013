@@ -1,0 +1,49 @@
+Peça para o usuário digitar o nome completo. Mostre as três primeiras letras do primeiro nome.
+
+nome_completo = input("Digite seu nome completo: ")
+primeiras_tres = nome_completo[:3]
+print("As 3 primeiras letras do seu nome são:", primeiras_tres)
+================
+Dada a string palavra = "abacaxi", imprima:
+
+    Apenas os 3 primeiros caracteres
+
+    Do terceiro ao quinto caractere
+
+    Os dois últimos
+
+palavra = "abacaxi"
+print("1. Três primeiros:", palavra[:3])
+print("2. Do terceiro ao quinto:", palavra[2:5])
+print("3. Dois últimos:", palavra[-2:])
+================
+Dado o nome do usuário, imprima ele de trás para frente.
+
+nome = input("Digite seu nome: ")
+print("Seu nome invertido é:", nome[::-1])
+================
+Enunciado:
+Com a string nome = "Ana Beatriz Souza", capture e mostre apenas o sobrenome.
+
+nome = "Ana Beatriz Souza"
+sobrenome = nome[-6:]  # Considerando que o sobrenome tem sempre 6 letras
+print("Sobrenome:", sobrenome)
+
+Desafio extra: Tente usar split()
+================
+Dado fruta = "melancia", exiba uma nova palavra feita com a 1ª, 3ª, 5ª e 7ª letra.
+
+fruta = "melancia"
+nova_palavra = fruta[0] + fruta[2] + fruta[4] + fruta[6]
+print("Nova palavra:", nova_palavra)
+================
+Enunciado:
+Peça uma palavra e diga se ela é um palíndromo (lê igual de trás pra frente).
+
+palavra = input("Digite uma palavra: ")
+if palavra == palavra[::-1]:
+    print("É um palíndromo!")
+else:
+    print("Não é um palíndromo.")
+
+================
