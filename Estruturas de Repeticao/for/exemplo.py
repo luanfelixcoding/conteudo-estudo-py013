@@ -1,19 +1,19 @@
 print("Parte 1")
-# Parte 1
+# Contagem de 0 a 4
 for i in range(5):
     print(i, end=" ")
 
 print("\n" + "="*20)
 print("Parte 2")
 
-# Parte 2
+# Contagem regressiva de 5 a 0
 for i in range(5, -1, -1):
     print(i, end=" ")
 
 print("\n" + "="*20)
 print("Parte 3")
 
-# Parte 3
+# Contagem de 0 a 9, com quebra no meio
 for i in range(10):
     print(i)
     # Lembre do conteudo de Estrutura de Controle
@@ -25,14 +25,14 @@ print("Loop finalizado.")
 print("="*20)
 print("Parte 4")
 
-# Parte 4
+# Sequência de números pares de 0 a 9
 for i in range(0, 10, 2):
     print(i, end=" ")
 
 print("\n" + "="*20)
 print("Parte 5")
 
-# Parte 5
+# Printando cada letra de uma string
 # Lembre do conteudo de Manipulação de Strings
 string = "Python"
 for letra in string:
@@ -41,7 +41,7 @@ for letra in string:
 print("\n" + "="*20)
 print("Parte 6")
 
-# Parte 6
+# Printando cada letra de uma string em forma inversa
 # Lembre do conteudo de Manipulação de Strings
 # OBS: Não se esqueca que o index começa em 6 - 1 = 5
 # E vai até 0, no total são 6 letras
