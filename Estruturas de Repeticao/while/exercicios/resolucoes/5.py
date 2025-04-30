@@ -1,0 +1,33 @@
+"""
+Uma tartaruga quer completar uma corrida de 10 metros.
+A cada rodada, ela avança 1 metro 
+e o programa imprime: "A tartaruga andou X metro(s)..."
+Quando chegar a 10 metros, imprima: 
+"A tartaruga chegou na linha de chegada!"
+
+OUTPUT:
+A tartaruga andou 1 metro(s)...
+A tartaruga andou 2 metro(s)...
+A tartaruga andou 3 metro(s)...
+A tartaruga andou 4 metro(s)...
+A tartaruga andou 5 metro(s)...
+A tartaruga andou 6 metro(s)...
+A tartaruga andou 7 metro(s)...
+A tartaruga andou 8 metro(s)...
+A tartaruga andou 9 metro(s)...
+A tartaruga andou 10 metro(s)...
+
+A tartaruga chegou na linha de chegada!
+"""
+
+# Definindo a distância total da corrida
+distancia = 0
+
+# Loop enquanto a tartaruga não chegar a 10 metros
+# A cada iteração, a tartaruga avança 1 metro
+# e imprime a distância percorrida
+while distancia < 10:
+    distancia += 1
+    print(f"A tartaruga andou {distancia} metro(s)...")
+
+print("\nA tartaruga chegou na linha de chegada!")
