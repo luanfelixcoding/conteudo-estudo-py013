@@ -3,8 +3,7 @@ print("Tenho uma tarefa para você!")
 print("Você terá que carimbar alguns documentos da empresa que lhe pedirei!")
 print("Boa sorte!")
 
-quantidade_documentos = int(
-    input("Quantos documentos tenho que carimbar? "))
+quantidade_documentos = int(input("Quantos documentos tenho que carimbar? "))
 
 for carimbada in range(quantidade_documentos):
     print(f"\nCarimbando documento número {carimbada + 1}")
