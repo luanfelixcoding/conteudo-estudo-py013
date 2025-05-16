@@ -1,3 +1,5 @@
+# Introdução as Tuplas em Python
+
 """
 TUPLAS SÃO IMUTÁVEIS
 Não é possível adicionar, remover ou alterar elementos de uma tupla.
